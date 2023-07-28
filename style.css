@@ -10,6 +10,13 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: #333;
+    background-color: #ffffff;
+}
+
+.home-body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 a {
@@ -33,18 +40,9 @@ p {
 /* Header styles */
 header {
     background-color: #f9f9f9;
-    padding: 20px;
-    padding-top: 5rem;
+    padding-top: 7rem;
     text-align: center;
 }
-
-/* header div img {
-  display: block;
-  margin: 0 auto;
-  max-width: 20%;
-  margin-bottom: 30px;
-  opacity: 1;
-} */
 
 .image-container {
   position: relative;
@@ -74,6 +72,10 @@ header {
   opacity: 0.6;
 }
 
+.home-container{
+    flex: 1 0 auto;
+}
+
 nav ul {
     display: flex;
     justify-content: center;
@@ -81,10 +83,7 @@ nav ul {
 
 nav li {
     margin: 0 10px;
-}
-
-.hero {
-    margin-top: 50px;
+    padding: 0 0 1rem 0;
 }
 
 /* Main styles */
@@ -92,6 +91,7 @@ main {
     max-width: 800px;
     margin: 0 auto;
     padding: 50px 20px;
+    background-color: #ffffff;
 }
 
 section {
@@ -111,37 +111,16 @@ ul li:last-child {
     margin-bottom: 0;
 }
 
-/* Form styles */
-form label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-form input, form textarea {
-    padding: 10px;
-    margin-bottom: 10px;
-    width: 100%;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-form input[type="submit"] {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
 /* Footer styles */
 footer {
     background-color: #f9f9f9;
-    padding: 20px;
+    padding: 2rem 0 7rem 0;
     text-align: center;
 }
 
 .home-footer {
-    padding-bottom: 6rem;
+    padding-bottom: 7rem;
+    flex-shrink: 0;
 }
 
 .more-space {
