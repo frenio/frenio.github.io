@@ -114,7 +114,7 @@ ul li:last-child {
 .emoji {
   display: inline-flex;
   justify-content: center;
-  width: 1em; /* Adjust the width as needed */
+  width: 2em; /* Adjust the width as needed */
   height: 1em; /* Adjust the height as needed */
   font-size: 1em;
 }
