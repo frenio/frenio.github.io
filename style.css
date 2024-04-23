@@ -111,6 +111,14 @@ ul li:last-child {
     margin-bottom: 0;
 }
 
+.emoji {
+  display: inline-flex;
+  justify-content: center;
+  width: 1em; /* Adjust the width as needed */
+  height: 1em; /* Adjust the height as needed */
+  font-size: 1em;
+}
+
 /* Footer styles */
 footer {
     background-color: #f9f9f9;
